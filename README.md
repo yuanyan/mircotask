@@ -3,13 +3,14 @@
 
 ## 原理
 
-利用Mutation Observer是异步执行的特点，总是会等待其他脚本执行完成后才执行
+利用MutationObserver总是异步执行的特点，会等待其他脚本执行完成后才执行
 
 ## 使用
-
+```js
 mircotask(function(){
    // TODO
 })
+```
 
 ## 参考
 * https://dev.opera.com/articles/mutation-observers-tutorial/
